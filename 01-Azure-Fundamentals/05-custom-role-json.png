@@ -1,1 +1,3 @@
 
+- Verified the JSON: storage-account read only, no DataActions,
+  and assignable scope restricted to rg-azure-fundamentals.
