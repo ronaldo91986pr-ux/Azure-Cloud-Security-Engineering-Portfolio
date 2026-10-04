@@ -1,17 +1,13 @@
-# Azure Identity and RBAC Lab
-
-## Objective
-Practice Azure access management using a custom role with limited permissions.
-
 ## Completed
-- Reviewed inherited Owner access from the subscription.
 - Created the custom role: Lab Resource Viewer.
-- Confirmed one control-plane permission: List/Get Storage Account(s).
+- Confirmed storage-account read permission.
+- Assigned the role to mi-lab-resource-viewer
+  at the rg-azure-fundamentals scope.
 
 ## Pending verification
-- Inspect the role JSON and assignable scope.
-- Assign the role to a dedicated lab identity.
-- Test allowed and denied operations.
+- Attach the identity to an Azure Automation account.
+- Test an allowed storage-account read.
+- Test a denied resource-group read.
 
-## Evidence
-Screenshots will be added as each step is verified.
+## Role assignment evidence
+![Managed identity role assignment](06-managed-identity-role-assignment.png)
