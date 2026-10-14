@@ -1,213 +1,72 @@
 # Azure Cloud Security Engineering Portfolio
 
-Hands-on cloud security and infrastructure engineering portfolio focused on Microsoft Azure, Microsoft Entra ID, IAM, security operations, monitoring, automation, and Infrastructure as Code.
+Hands-on Azure labs focused on identity, governance, and access control, documented with screenshot evidence. Anything not yet built is listed under [Roadmap](#roadmap), not claimed as a skill.
 
-This portfolio documents practical labs, troubleshooting exercises, security configurations, architecture decisions, and lessons learned while building deeper Cloud Security, IAM, DevSecOps, and Cloud Operations skills.
+## About
 
----
+My professional background is in cybersecurity infrastructure, vulnerability management, Windows/Linux security, incident investigation, and automation. I am building cloud security depth through structured labs.
 
-## 👨‍💻 About This Portfolio
+Method: **Learn → Build → Troubleshoot → Secure → Document → Explain**
 
-My professional background is in cybersecurity infrastructure, vulnerability management, Windows/Linux security, incident investigation, remediation, automation, and technical troubleshooting.
+Each module answers four questions:
+1. What is this technology?
+2. Why would an enterprise use it?
+3. How do I configure and secure it?
+4. How would I troubleshoot it?
 
-I am expanding that foundation into cloud engineering and cloud security through structured hands-on projects.
-
-The portfolio follows a simple approach:
-
-**Learn → Build → Troubleshoot → Secure → Document → Explain**
-
-The goal is not only to complete cloud labs, but to understand why each technology is used, how it behaves in enterprise environments, what can go wrong, and how to investigate problems.
+> Example: Microsoft Entra ID manages identities and authentication, while Azure RBAC controls what those identities are authorized to do on Azure resources at a specific scope.
 
 ---
 
-## ☁️ Current Focus
+## Completed
 
-### Microsoft Azure
-- Azure Resource Groups
-- Azure Storage and Blob Storage
-- Microsoft Entra ID
-- Azure RBAC
-- IAM and least privilege
-- Azure Policy
-- Resource Locks
-- Azure Activity Logs
-- Cost Management
-- Azure Monitor
-- Log Analytics
-- KQL
-- Virtual Machines
-- VNets, Subnets and NSGs
-- Key Vault
-- Managed Identities
-- Defender for Cloud
-- Microsoft Sentinel
-- Backup and Disaster Recovery
-- Terraform and Bicep
-- Azure DevOps and CI/CD
-
-### AWS — Planned Secondary Cloud
-- AWS IAM
-- Organizations
-- VPC
-- EC2
-- S3
-- RDS
-- Security Groups
-- Route 53
-- CloudWatch
-- CloudTrail
-- KMS
-- Secrets Manager
-- Access Analyzer
-- Terraform
-- CloudFormation
-- AWS security and governance
-
----
-
-## 🔐 Security Areas
-
-This portfolio emphasizes:
-
-- Identity and Access Management
-- Least privilege
-- Role-Based Access Control
-- Cloud governance
-- Vulnerability management
-- Security monitoring
-- Incident investigation
-- Authentication and authorization
-- Network segmentation
-- Logging and detection
-- Secrets management
-- Encryption
-- Infrastructure hardening
-- Cloud Security Posture Management
-- Security automation
-- DevSecOps
-- AI security concepts
-
----
-
-## 📂 Portfolio Projects
-
-### 01 — Azure Fundamentals
-Hands-on introduction to Azure resource organization, storage, governance, monitoring, cost awareness, and access control.
-
-Topics include:
-
-- Resource Groups
-- Tags
-- Cost Management
-- Activity Logs
-- Storage Accounts
-- Blob Containers
-- LRS redundancy
-- Resource Locks
-- Azure Policy
-- IAM / RBAC
+### [01 - Azure Fundamentals](./01-Azure-Fundamentals)
+Resource groups and tags, cost management, activity log, storage account and blob container (LRS), resource locks, Azure Policy, resource group IAM.
 
 **Status: Completed**
 
----
+### [02 - Microsoft Entra ID and Azure RBAC](./02-Azure-Identity-Entra-RBAC)
+Entra ID overview, custom RBAC role (permissions and JSON definition), managed identity role assignment.
 
-### 02 — Microsoft Entra ID & Azure RBAC
-
-Identity and access management lab focused on understanding:
-
-- Microsoft Entra identities
-- Authentication methods
-- Azure RBAC
-- Identity + Role + Scope
-- Direct vs inherited permissions
-- Reader / Contributor / Owner roles
-- Least privilege
-- MFA
-- Conditional Access concepts
-- Effective access
-- Sign-in investigation
-
-**Status: In Progress**
+**Status: In Progress.** Next: test user and group, Reader at resource group scope with an access-denied test, inherited vs direct assignments, sign-in log review, MFA.
 
 ---
 
-### Upcoming Projects
+## Roadmap
 
-03 — Azure Networking  
-04 — Azure Compute & Virtual Machines  
-05 — Azure Storage & Key Vault  
-06 — Azure Monitor, Log Analytics & KQL  
-07 — Defender for Cloud  
-08 — Microsoft Sentinel & Security Operations  
-09 — Terraform / Bicep Infrastructure as Code  
-10 — Azure DevOps & CI/CD  
-11 — Backup, Recovery & Resilience  
-12 — Cloud Security Capstone
+Not yet built. Each item moves to Completed only with lab evidence.
 
----
+| # | Module |
+|---|---|
+| 03 | Azure Monitor, Log Analytics and KQL |
+| 04 | Azure Networking (VNets, subnets, NSGs) |
+| 05 | Compute and Virtual Machines |
+| 06 | Key Vault |
+| 07 | Defender for Cloud |
+| 08 | Microsoft Sentinel |
+| 09 | Bicep and Terraform |
+| 10 | Azure DevOps and CI/CD |
+| 11 | Backup and Disaster Recovery |
+| 12 | Capstone |
 
-## 🛠 Technologies
-
-**Cloud:** Microsoft Azure, Microsoft Entra ID, AWS  
-**Security:** Microsoft Defender, Sentinel, Qualys, IAM, RBAC  
-**Systems:** Windows, Linux, Ubuntu  
-**Networking:** TCP/IP, DNS, HTTP/HTTPS, routing, segmentation  
-**Automation:** PowerShell, Python, Bash  
-**Infrastructure as Code:** Terraform, Bicep, CloudFormation  
-**Monitoring:** Azure Monitor, Log Analytics, KQL, CloudWatch  
-**Tools:** Git, GitHub, Wireshark, Nmap, Security Onion
+AWS security work is in separate repos: [AWS-Portfolio-L2](https://github.com/ronaldo91986pr-ux/AWS-Portfolio-L2) and [aws-security-labs-](https://github.com/ronaldo91986pr-ux/aws-security-labs-).
 
 ---
 
-## 🧠 What I Am Learning
+## Focus Areas
 
-Each project is designed to answer four questions:
+Identity and access management, least privilege, RBAC, cloud governance, logging and detection, vulnerability management, incident investigation, and security automation.
 
-**What is this technology?**
+## Tools
 
-**Why would an enterprise use it?**
+PowerShell, Python, Bash, Qualys, Microsoft Defender, KQL, Git, GitHub, Wireshark, Nmap.
 
-**How do I configure and secure it?**
+## Target Roles
 
-**How would I troubleshoot it if something goes wrong?**
-
-For example:
-
-> Microsoft Entra ID manages identities and authentication, while Azure RBAC controls what those identities are authorized to do on Azure resources at a specific scope.
+Cloud Security Engineer, Azure Cloud Engineer, Cloud Operations Engineer, IAM / Entra Engineer, Security Engineer, Vulnerability Engineer.
 
 ---
 
-## 🎯 Career Focus
+## Note
 
-This portfolio is being developed toward roles including:
-
-- Cloud Security Engineer
-- Azure Cloud Engineer
-- Cloud Operations Engineer
-- IAM / Microsoft Entra Engineer
-- Security Engineer
-- DevSecOps Engineer
-- Security Operations Engineer
-- Vulnerability Engineer
-- Cloud Support Engineer
-
-Long-term areas of development include multi-cloud security, infrastructure automation, AI security, workload identities, and secure AI/cloud platforms.
-
----
-
-## 📌 Important Note
-
-Cloud work shown in this repository consists of authorized hands-on labs, personal portfolio projects, and structured technical training unless explicitly identified otherwise.
-
-Sensitive identifiers such as subscription IDs, tenant IDs, email addresses, account information, and other private data are removed or redacted from published evidence.
-
----
-
-## 📈 Portfolio Status
-
-**Azure Fundamentals:** Completed  
-**Microsoft Entra ID / Azure RBAC:** In Progress  
-**Azure Networking:** Upcoming  
-**AWS Cloud Engineering:** Planned  
-**Terraform / DevSecOps:** Planned  
-**AI Security Integration:** Planned
+All work is authorized hands-on lab work in personal or training environments. Subscription IDs, tenant IDs, emails, and other identifiers are redacted from published evidence.
