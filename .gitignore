@@ -1,0 +1,11 @@
+.env
+*.pem
+*.key
+*.pfx
+*.tfstate
+*.tfstate.*
+.terraform/
+.aws/
+.azure/
+credentials
+*.log
